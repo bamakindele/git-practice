@@ -25,6 +25,18 @@ function forth(x){
     }
 }
 
+// Exercise 54
+// Write a function definition named last that takes in sequence and returns the last value of that sequence.
+function last(x){
+
+    if((typeof x) == "string"){
+        return x.substring(x.length - 1);
+    }
+    else{
+        return x[x.length - 1];
+    }
+}
+
 
 
 
